@@ -1,6 +1,6 @@
 # Basic React Boilerplate
-=========================
-including
+
+## Including
 - React
 - Babel
 - Webpack
