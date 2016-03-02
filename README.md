@@ -9,6 +9,7 @@
 - Expect
 
 ### build
+`npm install`
 `npm run build`
 
 ### serve
