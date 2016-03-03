@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node_modules/karma/bin/karma start",
     "build": "webpack",
-    "serve": "webpack-dev-server"
+    "serve": "webpack-dev-server",
+    "start": "webpack -d --watch"
   },
   "author": "Stijn Deschuymer",
   "license": "ISC",
