@@ -7,11 +7,11 @@ module.exports = function (config) {
         frameworks: [ 'mocha' ], //use the mocha test framework, do not swap for jasmine!
         files: [
             'node_modules/babel-polyfill/dist/polyfill.js',
-            './lib/**/*.test.js',
-            './lib/**/*.spec.js'
+            './src/**/*.test.js',
+            './src/**/*.spec.js'
         ],
         preprocessors: {
-            './lib/**/*.js': [ 'webpack', 'sourcemap']
+            './src/**/*.js': [ 'webpack', 'sourcemap']
         },
         reporters: [ 'dots' ],
         plugins: [
