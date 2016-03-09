@@ -9,6 +9,7 @@ module.exports = {
         filename: '[name].js',
         sourceMapFilename: '[name].js.map',
         path: __dirname + '/lib',
+        publicPath: '/static/'
     },
     devtool: 'source-map',
     plugins: [
